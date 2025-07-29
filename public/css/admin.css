@@ -1,0 +1,84 @@
+
+  .offcanvas-title {
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 8px;
+  }
+
+  .custom-input {
+    border-radius: 10px;
+    border: 1px solid #999;
+    padding: 14px;
+    box-shadow: none;
+  }
+
+  .custom-input::placeholder {
+    color: #002B5B;
+    font-weight: 500;
+  }
+
+  .btn-danger {
+    background-color: #C82333;
+    border: none;
+  }
+
+  .btn-primary {
+    background-color: #0e1c3f;
+    border: none;
+  }
+
+  .btn-primary:hover {
+    background-color: #142850;
+  }
+
+  .btn-danger:hover {
+    background-color: #a71d2a;
+  }
+.offcanvas {
+  z-index: 1100 !important; /* Higher than header */
+}
+.blurred {
+  filter: blur(5px);
+  transition: filter 0.3s ease;
+  pointer-events: none; /* Optional: disables interaction */
+}
+
+.fixed-header.dimmed {
+  background-color: rgba(0, 0, 0, 0.05) !important; /* subtle dark effect */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important; /* dim the white line */
+}
+
+.fixed-header.dimmed .brand-logo {
+  filter: brightness(0.7); /* dim the logo */
+}
+
+.fixed-header.dimmed .menu-toggle {
+  background-color: rgba(255, 255, 255, 0.1) !important; /* dim the circle */
+  transition: background-color 0.3s ease;
+}
+
+.fixed-header.dimmed .menu-toggle i {
+  color:  #142850 !important; /* turn icon white */
+}
+
+ .modal-content {
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+
+  .btn-primary {
+    background-color: #0d2c53;
+    border-color: #0d2c53;
+  }
+
+  .form-control:focus {
+    border-color: #0d2c53;
+    box-shadow: 0 0 0 0.2rem rgba(13, 44, 83, 0.25);
+  }
+
+thead.custom-thead tr th {
+    background-color:#0d2c53 !important;
+    color: white !important;
+  }
+
+
+
